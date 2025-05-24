@@ -1,0 +1,6 @@
+endpoint,total_requests,successful_requests,error_4xx_requests,error_5xx_requests,avg_latency,num_users,success_rate,error_4xx_rate,error_5xx_rate
+https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy,180,0,180,0,0.37023945914374456,6,0.0,100.0,0.0
+https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg,180,0,180,0,0.40881685813268026,6,0.0,100.0,0.0
+https://api.spotify.com/v1/playlists/3cEYpjA9oz9GiPac4AsH4n,180,99,81,0,0.4239278766844008,6,55.00000000000001,45.0,0.0
+https://api.spotify.com/v1/search?q=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=album,180,98,82,0,0.4849130047692193,6,54.44444444444444,45.55555555555556,0.0
+https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl,180,0,180,0,0.3672101166513231,6,0.0,100.0,0.0
