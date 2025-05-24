@@ -1,6 +1,6 @@
 endpoint,total_requests,successful_requests,error_4xx_requests,error_5xx_requests,avg_latency,num_users,success_rate,error_4xx_rate,error_5xx_rate
-https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy,180,90,90,0,0.35890505976147125,6,50.0,50.0,0.0
-https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg,180,92,88,0,0.2594290985001458,6,51.11111111111111,48.888888888888886,0.0
-https://api.spotify.com/v1/playlists/3cEYpjA9oz9GiPac4AsH4n,180,95,85,0,0.40031570858425564,6,52.77777777777778,47.22222222222222,0.0
-https://api.spotify.com/v1/search?q=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=album,180,93,87,0,0.4490153153737386,6,51.66666666666667,48.333333333333336,0.0
-https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl,180,96,84,0,0.3416640811496311,6,53.333333333333336,46.666666666666664,0.0
+https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy,180,93,87,0,0.25118290450837877,6,51.66666666666667,48.333333333333336,0.0
+https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg,180,96,84,0,0.32055246962441336,6,53.333333333333336,46.666666666666664,0.0
+https://api.spotify.com/v1/playlists/3cEYpjA9oz9GiPac4AsH4n,180,83,97,0,0.34391699764463635,6,46.111111111111114,53.888888888888886,0.0
+https://api.spotify.com/v1/search?q=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=album,180,90,90,0,0.28945561117596097,6,50.0,50.0,0.0
+https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl,180,90,90,0,0.29538398716184827,6,50.0,50.0,0.0
