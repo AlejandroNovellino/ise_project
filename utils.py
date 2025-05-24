@@ -259,6 +259,7 @@ def process_concurrent_results():
     global_success_rate = (global_successful_requests / global_total_requests) * 100 if global_total_requests > 0 else 0
     global_error_4xx_rate = (global_error_4xx_requests / global_total_requests) * 100 if global_total_requests > 0 else 0
     global_error_5xx_rate = (global_error_5xx_requests / global_total_requests) * 100 if global_total_requests > 0 else 0
+    avg_latency = df_concurrent_2['latencies'].mean()
 
     # global results
     print("\n--- Resumen General de la Simulación Concurrente ---")
@@ -270,6 +271,7 @@ def process_concurrent_results():
     print(f"Tasa de éxito global: {global_success_rate:.2f}%")
     print(f"Tasa de error 4xx global: {global_error_4xx_rate:.2f}%")
     print(f"Tasa de error 5xx global: {global_error_5xx_rate:.2f}%")
+    print(f"Latencia promedio: {avg_latency:.3f}")
 
     # analysis by endpoint
     agg_by_endpoint = df_concurrent.groupby('endpoint').agg(
