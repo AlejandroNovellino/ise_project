@@ -1,4 +1,6 @@
 .env
 venv/
+# environment variables generator
+generator.py
 
 __pycache__/
