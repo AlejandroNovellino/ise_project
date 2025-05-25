@@ -37,9 +37,6 @@ def measure_spotify_performance(url, duration_seconds=60, sample_interval_second
             print(
                 "No se pudo encontrar el PID del proceso del navegador. No se monitoreará el uso de recursos."
             )
-            print(
-                "Considera lanzar el navegador con un perfil/argumento específico para un mejor monitoreo."
-            )
             browser.close()
             return
 
